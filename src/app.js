@@ -47,7 +47,7 @@ app.use('/posts', authenticateUser, posts);
 // api docs
 app.use('/api', docs);
 
-// start
+// startd
 app.listen(port, () =>
   console.log(
     `${chalk.white
